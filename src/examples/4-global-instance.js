@@ -10,6 +10,7 @@ const GlobalInstance = () => {
       const resp1 = await axios(productsUrl);
       const resp2 = await axios(randomUserUrl);
       console.log(resp1);
+      console.log(resp2);
     } catch (error) {
       console.log(error.resp1);
     }
